@@ -1,0 +1,90 @@
+/* Paleta de colores */
+:root {
+  --rojo-siman: #C8102E;
+  --gris-oscuro: #333;
+  --gris-claro: #f5f5f5;
+  --blanco: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: var(--gris-claro);
+  color: var(--gris-oscuro);
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: var(--rojo-siman);
+  color: var(--blanco);
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: var(--blanco);
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  color: var(--blanco);
+  padding: 4rem 2rem;
+}
+
+.boton {
+  background-color: var(--rojo-siman);
+  color: var(--blanco);
+  padding: 0.8rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.promociones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.promociones img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--gris-oscuro);
+  color: var(--blanco);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+}
