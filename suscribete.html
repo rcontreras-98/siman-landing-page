@@ -1,14 +1,84 @@
-<main>
-  <section class="hero">
-    <h2>Suscríbete a Nuestro Boletín</h2>
-    <p>Recibe actualizaciones, cupones y promociones directamente en tu correo.</p>
-  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Siman | Suscribete</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <section class="img-container">
+                <a href="./index.html">
+                    <img href="./index.html" src="./assets/img/logo-siman.png" alt="logo-imagen-siman" class="img-logo">
+                </a>
+            </section>
+            <nav class="navbar">
+                <a href="./index.html" class="nav-item">Promociones</a>
+                <a href="./eventos.html" class="nav-item">Eventos</a>
+                <a href="./suscribete.html" class="nav-item">Suscríbete</a>
+            </nav>
+        </header>
 
-  <section style="padding: 2rem; text-align: center;">
-    <form>
-      <input type="text" placeholder="Tu nombre" required><br><br>
-      <input type="email" placeholder="Correo electrónico" required><br><br>
-      <button class="boton" type="submit">Suscribirse</button>
-    </form>
-  </section>
-</main>
+        <main class="main-container">
+            <section class="hero">
+                <h2 class="hero-title">SUSCRIBETE A NUESTRO BOLETIN</h2>
+                <p>Recibe actualizaciones, cupones y promociones directamente en tu correo.</p>
+            </section>
+
+            <section class="suscribete-container">
+                <form class="form-container">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3" style="align-self: start;">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-danger" style="font-weight: bold; font-family: Roboto;">Suscribirse</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./assets/img/almacenes-siman-empleos.png" class="img-logo" alt="logo-imagen-siman">
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">
+                        <img src="./assets/icons/facebook-svgrepo-com.svg" class="icon" alt="facebook-icon-logo"></img>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./assets/icons/twitter-svgrepo-com.svg" class="icon" alt="twitter-icon-logo">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./assets/icons/whatsapp-svgrepo-com.svg" class="icon" alt="whatsapp-icon-logo">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="./assets/icons/instagram-svgrepo-com.svg" class="icon" alt="instagram-icon-logo">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Inicio</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Política de Privacidad</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SIMAN ES. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -2,46 +2,153 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Siman | Promociones</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Siman</h1>
-      <ul>
-        <li><a href="index.html">Promociones</a></li>
-        <li><a href="eventos.html">Eventos</a></li>
-        <li><a href="suscribete.html">Suscríbete</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
+        <header class="header">
+            <section class="img-container">
+                <a href="./index.html">
+                    <img href="./index.html" src="./assets/img/logo-siman.png" alt="logo-imagen-siman" class="img-logo">
+                </a>
+            </section>
+            <nav class="navbar">
+                <a href="./index.html" class="nav-item">Promociones</a></li>
+                <a href="./eventos.html" class="nav-item">Eventos</a></li>
+                <a href="./suscribete.html" class="nav-item">Suscríbete</a></li>
+            </nav>
+        </header>
 
-  <main>
-    <section class="hero">
-      <h2>¡Ofertas Exclusivas!</h2>
-      <p>No te pierdas nuestras mejores promociones del mes.</p>
-      <a class="boton" href="suscribete.html">Suscríbete Ahora</a>
-    </section>
+        <main class="main-container">
+            <!-- Title Section -->
+            <section class="hero">
+                <h2 class="hero-title">PROMOCIONES</h2>
+            </section>
 
-    <section class="promociones">
-      <article>
-        <img src="img/promo1.jpg" alt="Promo 1">
-        <h3>Hasta 50% en Electrónica</h3>
-        <p>Promoción válida hasta agotar existencias.</p>
-      </article>
-      <article>
-        <img src="img/promo2.jpg" alt="Promo 2">
-        <h3>Moda con hasta 40% de descuento</h3>
-        <p>Viste con estilo, solo en Siman.</p>
-      </article>
-    </section>
-  </main>
+            <!-- Promociones Section -->
+            <section class="promociones-container">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./assets/img/img-productos/camisa-polo-azul.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Camisa Polo Ralph Lauren Azul Manga Corta</h5>
+                        <p class="card-text">Some quick example.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./assets/img/img-productos/camisa-polo-verde-mangalarga.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Camisa Polo Ralph Lauren Manga Larga Verde</h5>
+                        <p class="card-text">Some quick example.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./assets/img/img-productos/pantalon-polo-azul.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Pantalón Polo Ralph Lauren Azul-Negro</h5>
+                        <p class="card-text">Some quick example.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./assets/img/img-productos/gorra-polo-roja.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Gorra Polo Ralph Lauren Roja Unisex</h5>
+                        <p class="card-text">Some quick example.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./assets/img/img-productos/cartera-polo-negra.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Cartera Polo Ralph Lauren Negra Para Caballero</h5>
+                        <p class="card-text">Some quick example.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                    </div>
+                </div>
+            </section>
 
-  <footer>
-    <p>&copy; 2025 Siman El Salvador. Todos los derechos reservados.</p>
-  </footer>
+            <!--Categorias Section -->
+            <section class="categorias-container">
+                <!--CARD SECTION 1-->
+                <div class="card-section">
+                    <a href="./index.html">
+                        <img src="./assets/img/categoria-ropa-mujer.jpg" alt="categoria-ropa-mujer" class="img-categoria">
+                    </a>
+                    <div class="text-overlay">ROPA PARA DAMA</div>
+                </div>
+
+                <!--CARD SECTION 2-->
+                <div class="card-section-double">
+                    <div class="card">
+                        <a href="./index.html">
+                            <img src="./assets/img/categoria-ropa-ninios.jpg" alt="categoria-ropa-ninios" class="img-categoria-double">
+                        </a>
+                        <div class="text-overlay">ROPA DEPORTIVA</div>
+                    </div>
+                    <div class="card">
+                        <a href="./index.html">
+                            <img src="./assets/img/categoria-ropa-deportiva.jpg" alt="categoria-ropa-deportiva" class="img-categoria-double">
+                        </a>
+                        <div class="text-overlay">ROPA DEPORTIVA</div>
+                    </div>
+                </div>
+
+                <!--CARD SECTION 3-->
+                <div class="card-section">
+                    <a href="./index.html">
+                        <img src="./assets/img/categoria-ropa-hombre.jpg" alt="categoria-ropa-hombre" class="img-categoria">
+                    </a>
+                    <div class="text-overlay">ROPA PARA CABALLERO</div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="./assets/img/almacenes-siman-empleos.png" class="img-logo" alt="logo-imagen-siman">
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">
+                            <img src="./assets/icons/facebook-svgrepo-com.svg" class="icon" alt="facebook-icon-logo"></img>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="./assets/icons/twitter-svgrepo-com.svg" class="icon" alt="twitter-icon-logo">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="./assets/icons/whatsapp-svgrepo-com.svg" class="icon" alt="whatsapp-icon-logo">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="./assets/icons/instagram-svgrepo-com.svg" class="icon" alt="instagram-icon-logo">
+                        </a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">Inicio</a>
+                        <a href="#">Servicios</a>
+                        <a href="#">Contacto</a>
+                        <a href="#">Política de Privacidad</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 SIMAN ES. Todos los derechos reservados.</p>
+                </div>
+            </footer>
+    </div>
 </body>
 </html>
